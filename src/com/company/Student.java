@@ -25,6 +25,9 @@ public class Student extends Person {
         } else
             return 0;
     }
+    public void example(){
+        System.out.println("This is example");
+    }
     @Override
     public int compareTo(Person other) {
         return super.compareTo(other);
